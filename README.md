@@ -40,13 +40,14 @@ jobs:
 4. Go to Settings -> Scroll down to GitHub Pages -> Select `gh-pages` as branch and `/` as directory 
 
 ## Options 🔧
-|   Name   |            Description           |     Default    | Required |
-|:--------:|:--------------------------------:|:--------------:|:--------:|
-| username |           Your username          |        -       |     ✅    |
-| reponame |       Your repository name       |        -       |     ✅    |
-|   token  | Please leave this line unchanged |        -       |     ✅    |
-| gitemail |         Git commit email         | CI@example.com |     ❌    |
-|  gitname |          Git commit name         |       CI       |     ❌    |
-|  gitmsg  |        Git commit message        |     deploy     |     ❌    |
-|   cname  |           Custom domain          |        -       |     ❌    |
-|  useyarn |         Use yarn to build        |      false     |     ❌    |
+|       Name         |            Description           |     Default    | Required  |
+|:------------------:|:--------------------------------:|:--------------:|:---------:|
+|      username      |           Your username          |        -       |     ✅    |
+|      reponame      |       Your repository name       |        -       |     ✅    |
+|        token       | Please leave this line unchanged |        -       |     ✅    |
+|      gitemail      |         Git commit email         | CI@example.com |     ❌    |
+|       gitname      |          Git commit name         |       CI       |     ❌    |
+|       gitmsg       |        Git commit message        |     deploy     |     ❌    |
+|        cname       |           Custom domain          |        -       |     ❌    |
+|       useyarn      |         Use yarn to build        |      false     |     ❌    |
+| working-directory  |    Start at another directory    |        .       |     ❌    |
